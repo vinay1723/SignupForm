@@ -17,7 +17,7 @@ body {
 }
 
 form {
-  /* width: 600px; */
+  width: 600px;
   /* height: 712px; */
   display: flex;
   flex-direction: column;
