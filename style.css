@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  /* padding: 300px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+  font-family: "Inter", sans-serif;
+}
+
+form {
+  /* width: 600px; */
+  /* height: 712px; */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 90%;
+  /* position: relative; */
+  /* top: 154px; */
+  /* top: 54px; */
+  /* left: 198px; */
+}
+
+input {
+  border: none;
+  border-bottom-color: white;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  background-color: black;
+  color: #ffff;
+  font-family: Inter;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  padding: 10px 0px;
+  outline: none;
+}
+
+input::placeholder {
+  color: #fff;
+  opacity: 1;
+}
+
+label {
+  color: white;
+}
+
+h1 {
+  color: white;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin-bottom: 30px;
+}
+
+#button {
+  width: 226px;
+  height: 58px;
+}
+
+label[for] {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.options {
+  margin-top: 15px;
+}
+
+.options > label:first-child {
+  margin-right: 30px;
+}
+
+label[for="terms"] {
+  margin-left: 10px;
+}
+
+span {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  font-family: "Inter", sans-serif;
+  margin-left: 10px;
+}
+
+button {
+  margin-top: 30px;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+@media screen and (max-width: 630px) {
+  h1 {
+    font-size: 44px;
+  }
+
+  body {
+    padding: 10px 30px;
+  }
+
+  #button {
+    width: 200px;
+    height: 58px;
+    padding: 10px;
+  }
+
+  main {
+    height: 90%;
+  }
+}

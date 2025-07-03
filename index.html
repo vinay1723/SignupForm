@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup Form</title>
+    <link rel="icon" href="./images/enter (1).png" type="image/png" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- main content that could be placed in main tag <main></main> -->
+    <main>
+      <form action="#" method="post">
+        <header>
+          <h1>Signup</h1>
+        </header>
+
+        <input id="name" type="text" placeholder="Full Name" required />
+
+        <input id="email" type="email" placeholder="Email" required />
+
+        <input id="password" type="password" placeholder="password" required />
+
+        <input
+          id="ConfirmPassword"
+          type="password"
+          placeholder="Confirm Password"
+          required
+        />
+
+        <input type="date" placeholder="dd-mm-yyyy" required />
+
+        <div class="options">
+          <label>
+            <input type="radio" id="student" name="role" required /><span
+              >Student</span
+            >
+          </label>
+
+          <label>
+            <input type="radio" id="employee" name="role" required /><span
+              >Employee</span
+            ></label
+          >
+        </div>
+
+        <div class="options">
+          <input type="checkbox" id="terms" required /><label for="terms"
+            >I agree to all the Terms and conditions</label
+          >
+        </div>
+
+        <button id="button" type="submit">SignUp</button>
+      </form>
+    </main>
+
+    <!-- Since there is no footer content we are not using footer tag <footer></footer> -->
+    <script type="text/javascript" src="./script.js"></script>
+  </body>
+</html>
