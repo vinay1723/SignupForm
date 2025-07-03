@@ -17,7 +17,7 @@ body {
 }
 
 form {
-  width: 600px;
+  /* width: 600px; */
   /* height: 712px; */
   display: flex;
   flex-direction: column;
@@ -105,7 +105,7 @@ button {
   letter-spacing: 0%;
 }
 
-@media screen and (max-width: 630px) {
+@media screen and (max-width: 629px) {
   h1 {
     font-size: 44px;
   }
@@ -122,5 +122,11 @@ button {
 
   main {
     height: 90%;
+  }
+}
+
+@media screen and (min-width: 630px) {
+  form {
+    width: 600px;
   }
 }
